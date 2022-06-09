@@ -9,5 +9,5 @@ cap.set(10,130)
 while True:
     success, img = cap.read()
     cv2.imshow("Result", img)
-    if cv2.waitKet(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
